@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "db:seed": "node ./Database/seeder.js",
     "start": "node index.js",
+    "seed:start": "npm run db:seed && node index.js",
     "watch": "nodemon --watch ."
   },
   "keywords": [],
